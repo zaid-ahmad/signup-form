@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up | Cryptobunker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <video autoplay loop muted plays-inline class="bg-vd">
+            <source src="bgv.mp4" type="video/mp4">
+        </video>    
+        <div class="flex-container">
+            <fieldset>
+                <h2>Enter the Metaverse</h2>
+                <form action="#" method="post">
+                    <div class="f">
+                        <label for="first-name">Name*</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Rick" required>
+                    </div>
+
+                    <div class="f">
+                        <label for="last-name">Surname*</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Astley" required>
+                    </div>
+
+                    <div class="f">
+                        <label for="email">Email*</label>
+                        <input type="email" name="email" id="email" required placeholder="never@give.up">
+                    </div>
+
+                    <div class="f">
+                        <label for="phone-number">Phone Number*</label>
+                        <input type="tel" name="phone-number" id="phone-number"  required placeholder="98923 23433">
+                    </div>
+
+                    <div class="f">
+                        <label for="password">Password*</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+
+                    <div class="f">
+                        <label for="password-confirm">Confirm Password*</label>
+                        <input type="password" name="password-confirm" id="password-confirm" required>
+                    </div>
+                    
+                    <div class="f submit">
+                        <button type="submit" onclick="checkPasswords()">Create Account</button>
+                        <p>
+                            Already part of the metaverse? <a href="#">Login</a>
+                        </p>
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
