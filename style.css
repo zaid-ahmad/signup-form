@@ -86,10 +86,11 @@ label {
     align-self: flex-start;
 }   
 
-.submit button {
+form button {
+    grid-column-start: 1;
+    grid-column-end: 3;
     width: 150px;
     height: 50px;
-    margin-left: 80%;
     margin-top: 5%;
     background: linear-gradient(#31138b, #4b1cc5);
     border: none;
@@ -98,21 +99,19 @@ label {
     font-size: 16px;
     cursor: pointer;
     transition: .2s;
-    animation: 8s changeGradient;
 }
 
-.submit button:focus {
+form button:focus {
     background: linear-gradient(#4b1cc5, #31138b);
 }
 
 
-.submit p {
+form p {
     width: 340px;
     font-family: 'Roboto', sans-serif;
-    padding-top: 10%;
-    margin-left: 65%;
+    padding-top: 20%;
 }
 
-.submit a {
+form a {
     color: aliceblue;
 }
